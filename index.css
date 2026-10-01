@@ -11,7 +11,6 @@
 
 * {
   box-sizing: border-box;
-  background: pink;
 }
 
 body {
@@ -514,20 +513,12 @@ h1 {
 .board-left {
   left: 24px;
   top: 36px;
-  -webkit-transform: skewY(-12deg);
-  -moz-transform: skewY(-12deg);
-  -ms-transform: skewY(-12deg);
-  -o-transform: skewY(-12deg);
   transform: skewY(-12deg);
 }
 
 .board-right {
   right: 24px;
   top: 36px;
-  -webkit-transform: skewY(12deg);
-  -moz-transform: skewY(12deg);
-  -ms-transform: skewY(12deg);
-  -o-transform: skewY(12deg);
   transform: skewY(12deg);
 }
 
